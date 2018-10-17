@@ -1,5 +1,5 @@
 # Project 2
-## [Live Demo](https://gettingmean-project2.netlify.com/)
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
 This project will help you get up and running with angular.
 
 Let us add some spazazz
@@ -64,34 +64,38 @@ Locate
 ```
  And
  ```
-“scripts”: [
-]
+“scripts”: [ ]
 ```
 
 Add the following:
 
 ```javascript
 "styles": [
-       "styles.css",
-       "../node_modules/bootstrap/dist/css/bootstrap.min.css"
-       ],
-     "scripts": [
-       "../node_modules/jquery/dist/jquery.min.js",
-       "../node_modules/popper.js/dist/umd/popper.min.js",
-       "../node_modules/bootstrap/dist/js/bootstrap.min.js"
-       ],
+         "styles.css",
+           "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+           ],
+         "scripts": [
+           "../node_modules/jquery/dist/jquery.min.js",
+           "../node_modules/popper.js/dist/umd/popper.min.js",
+           "../node_modules/bootstrap/dist/js/bootstrap.min.js"
+         ],
 ```
 
 If the development server is not already running, run the following command.
 
 ```
-Npm start
+npm start
 ```
 
 Which will call the `ng serve` script
 
 If things are working, great.
+
+Locate the `app.component.html` file that is located in `../src/app/app.component.html`
+
 Let us add a navbar with the bootstrap library we installed
+
+
 
 ```
 <div style="text-align:center">
