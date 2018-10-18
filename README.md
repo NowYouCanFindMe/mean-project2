@@ -1,5 +1,5 @@
 # Project 2
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+## [Live Demo](https://gettingmean-project2.netlify.com/)
 This project will help you get up and running with angular.
 
 Let us add some spazazz
